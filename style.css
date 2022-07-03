@@ -79,6 +79,10 @@ nav img{
     display: none;
 }
 
+.nav .fa-bar {
+    display: none;
+}
+
 .text-box{
     width: 90%;
     color: #fff;

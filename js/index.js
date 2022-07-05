@@ -17,3 +17,4 @@ window.onscroll = function(){
 
     else{nav.classList.remove("colorNav")}
 }
+

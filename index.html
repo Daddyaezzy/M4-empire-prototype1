@@ -5,27 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M4 Empire</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+
+    
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/m4 empire .png" alt=""></a>
+            <div class="logo-menu">
+                <a href="index.html"><img src="images/m4 empire .png" alt=""></a>
+                <div id="menu-btn"></div>
+            </div>
             <div class="nav" id="nav">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <i class="fas fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">OUR NFTs</a></li>
-                    <li><a href="">BLOG</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="our-nfts.html">OUR NFTs</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
                     <li><a href="">CONTACT US</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
@@ -114,7 +122,7 @@
     </section>
 
 <!-- our nfts -->
-    <section class="our-nfts">
+    <section class="our-nfts" id="our-nfts">
         <h1>our NFTs</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, expedita.</p>
 
@@ -185,12 +193,132 @@
 
     </section>
 
+<!-- our facilities -->
 
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, expedita.</p>
 
-    <section>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/IMG_4624.JPG">
+                <h3>world class offices</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eaque voluptate officia.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/IMG_4626.JPG">
+                <h3>top notch barbecue</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eaque voluptate officia.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/IMG_4629.JPG">
+                <h3>exotic automobiles</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, eaque voluptate officia.</p>
+            </div>
+        </div>
 
     </section>
 
+
+    <!-- testimonials -->
+    <section class="testimonials">
+        <h1>what our customers say</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, expedita.</p>
+    
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+    
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dolorem velit dolores blanditiis
+                        reprehenderit neque sequi laudantium, inventore accusamus minima iste rerum, odio fugit amet!
+                    </p>
+                    <h3>Taiye Beckley</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+                </div>
+            </div>
+    
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+    
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dolorem velit dolores blanditiis
+                        reprehenderit neque sequi laudantium, inventore accusamus minima iste rerum, odio fugit amet!
+                    </p>
+                    <h3>Adebanjo Adeolu</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+    
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dolorem velit dolores blanditiis
+                        reprehenderit neque sequi laudantium, inventore accusamus minima iste rerum, odio fugit amet!
+                    </p>
+                    <h3>Adebanjo Adeolu</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+    
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dolorem velit dolores blanditiis
+                        reprehenderit neque sequi laudantium, inventore accusamus minima iste rerum, odio fugit amet!
+                    </p>
+                    <h3>Adebanjo Adeolu</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+        <!-- call to action -->
+         
+        <section class="cta">
+            <h1>connect with us anywhere in the world to get premium<br> company information </h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        
+        
+        </section>
+
+        <!-- footer -->
+
+     <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur possimus tempore error commodi <br> quidem repudiandae! Recusandae odio amet vel incidunt excepturi corporis.</p>
+        <div class="icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i><a>           
+            <a href=""><i class="fa-brands fa-youtube"></i></a>      
+         </div>
+        <p>made with  <i class="fa-regular fa-heart"></i> by Ali3n Tech</p>
+
+
+     </section>   
+    
+    
+    
+    
 
 
    <script>
@@ -217,6 +345,6 @@ window.onscroll = function(){
 }
 
    </script>
-    <script src="js/index.js"></script>
+   s
 </body>
 </html>

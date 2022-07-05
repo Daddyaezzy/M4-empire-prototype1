@@ -1,20 +1,22 @@
 var nav = document.getElementById("nav");
 
-        function showMenu(){
-            nav.style.display = "block"
-        }
-        function hideMenu(){
-            nav.style.display = "none"
-        }
-
-
-const nav = document.getElementById("nav")
-
-window.onscroll = function(){ 
-    if(document.body.scrollTop>=150)
-    {nav.classList.add("colorNav")
+function showMenu(){
+    nav.style.display = "block"
+}
+function hideMenu(){
+    nav.style.display = "none"
 }
 
-    else{nav.classList.remove("colorNav")}
+var navContainer = document.querySelector('.navContainer')
+
+
+
+window.onscroll = function(){ 
+    if (document.documentElement.scrollTop > 550) {
+        navContainer.classList.add("colorNav")
+        console.log(50)
+    }
+
+    else{navContainer.classList.remove("colorNav")}
 }
 

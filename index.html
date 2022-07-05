@@ -17,24 +17,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navContainer">
+        <div class="logo-menu">
+            <a href="index.html"><img src="images/m4 empire .png" alt=""></a>
+            <div id="menu-btn"></div>
+        </div>
+        <div class="nav" id="nav">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="our-nfts.html">OUR NFTs</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
     <section class="header">
-        <nav>
-            <div class="logo-menu">
-                <a href="index.html"><img src="images/m4 empire .png" alt=""></a>
-                <div id="menu-btn"></div>
-            </div>
-            <div class="nav" id="nav">
-                <i class="fas fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT US</a></li>
-                    <li><a href="our-nfts.html">OUR NFTs</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="">CONTACT US</a></li>
-                </ul>
-            </div>
-            <i class="fas fa-bars" onclick="showMenu()"></i>
-        </nav>
+        
 
         <div class="text-box">
             <h1>Fastest Rising Multidimentional Company</h1>
@@ -321,30 +322,9 @@
     
 
 
-   <script>
-    var nav = document.getElementById("nav");
 
-function showMenu(){
-    nav.style.display = "block"
-}
-function hideMenu(){
-    nav.style.display = "none"
-}
+   
 
-
-
-
-const nav = document.getElementById("nav")
-
-window.onscroll = function(){ 
-    if(document.body.scrollTop>=150)
-    {nav.classList.add("colorNav")
-}
-
-    else{nav.classList.remove("colorNav")}
-}
-
-   </script>
-   s
+   <script src="js/index.js"></script>
 </body>
 </html>

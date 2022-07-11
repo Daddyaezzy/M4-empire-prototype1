@@ -17,23 +17,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="sub-header">
-        <nav>
+    <nav class="navContainer">
+        <div class="logo-menu">
             <a href="index.html"><img src="images/m4 empire .png" alt=""></a>
-            <div class="nav" id="nav">
-                <i class="fas fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="our-nfts.html">OUR NFTs</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="">CONTACT US</a></li>
-                </ul>
-            </div>
-            <i class="fas fa-bars" onclick="showMenu()"></i>
-        </nav>
+            <div id="menu-btn"></div>
+        </div>
+        <div class="nav" id="nav">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="our-nfts.html">OUR NFTs</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact-us.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <section class="sub-header">
+        
 
-        <h1>Our Blog</h1>
+        <div class="text-box">
+           <h1>our blog</h1>
+        </div>
+
+
     </section>
 
     <!-- blog content -->
@@ -51,15 +59,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptates est reiciendis deleniti et vitae cumque iure minus earum ipsam. Similique velit dolor commodi dolores neque veniam explicabo eaque pariatur. Eos temporibus maiores earum architecto enim voluptatibus? Eos est omnis dignissimos dicta consequuntur reiciendis vitae, quae recusandae quam eius adipisci.</p>
             </div>
 
-            <div class="comment-box">
-
-                <h3>Leave a comment</h3>
-
-                <form action="" class="comment-form">
-
-                    
-                </form>
-            </div>
+            
 
 
 
@@ -77,6 +77,20 @@
                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reiciendis enim distinctio doloribus nulla. </li>
                     </ul>
                 </div>
+            </div>
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                    
+                </form>
             </div>
 
 
@@ -102,9 +116,9 @@
 
      <section class="footer">
         <h4>about us</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur possimus tempore error commodi <br> quidem repudiandae! Recusandae odio amet vel incidunt excepturi corporis.</p>
+        <p>to know more about us visit our social media pages, we hope we get to see you soon</p>
         <div class="icons">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i><a>           
             <a href=""><i class="fa-brands fa-youtube"></i></a>      
